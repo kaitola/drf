@@ -10,3 +10,9 @@
 * pip install djangorestframework
 ### 4. start your first django project
 * django-admin startproject {your-project-name}
+### 5. create first django app
+* python manage.py startup {your-app-name}
+### 6. add new app into settings.py file
+* "INSTALLED_APPS" array add {your-app-name}
+### 7. create templates folder
+* mkdir templates

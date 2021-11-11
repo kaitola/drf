@@ -14,5 +14,14 @@
 * python manage.py startup {your-app-name}
 ### 6. add new app into settings.py file
 * "INSTALLED_APPS" array add {your-app-name}
-### 7. create templates folder
+### 7. create templates folder in your app's folder
+* cd {your-app-name}
 * mkdir templates
+## create django MVT file related
+### 1. create template file in templates folder
+* touch index.html
+* create variable named data and express {{data}} (Django template language)
+### 2. write views render function in views.py file
+* write your render code
+### 3. Config URLconf file
+* add your route in urlpatterns and import views
